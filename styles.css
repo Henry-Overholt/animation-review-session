@@ -17,9 +17,6 @@ section {
   width: 100%;
   border: 2px solid grey;
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 button {
@@ -55,6 +52,12 @@ button {
   position: relative;
   bottom: 0;
   z-index: 1;
+}
+
+#ball-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #ball-one {
